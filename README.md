@@ -1,23 +1,31 @@
-PASSO A PASSO DE COMO CRIEI
+# :computer: Tecnologias
+Esse projeto foi feito utilizando as seguintes tecnologias:
 
--   cria pagina src
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)      
+* [Expo](https://expo.io/)       
+* [Express](https://expressjs.com/) 
 
--   criar server.ts
+# :rocket: Funcionalidades
 
--   instalar o typescript com yarn
+* Site para cadastro de estudante e professores.
+* App para conectar estudantes e professores.
 
--   criar arquivo de configurações do typescript(yarn tsc --init)
+# :construction_worker: Como rodar
+```bash
+# Clone o Repositoria
+$ git clone https://github.com/RafaelGoulartB/Proffy.git
+```
+### 📦 Rode a API
 
--   mudar o target pra es2017
+```bash
+# Vá para a pasta do servidor
+$ cd Proffy/server
 
--   instalar o ts-node-deve -D pra ter um respawn e nao ter q fechar e abri toda vez o server
+# Instale as depedencias
+$ yarn install
 
--   criar uma sessao scrit e colocar start = tsnd src/server.ts
-
--   e colocar as flags (--transpile-only --ignore-watch node_modules --respawn)
-
--   instalar a dependencia express
-
--   e importar o expres no server
-
--   
+# Rode a aplicação
+$ yarn start
+```
+Acesse a API: http://localhost:3333/
