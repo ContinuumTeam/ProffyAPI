@@ -8,13 +8,13 @@ Esse projeto foi feito utilizando as seguintes tecnologias:
 
 # :rocket: Funcionalidades
 
-* Site para cadastro de estudante e professores.
-* App para conectar estudantes e professores.
+* Cadastro de professores 
+* Listagem de professores e seus dados
 
 # :construction_worker: Como rodar
 ```bash
 # Clone o Repositoria
-$ git clone https://github.com/RafaelGoulartB/Proffy.git
+$ git clone https://github.com/matheusF99/ProffyAPI.git
 ```
 ### 📦 Rode a API
 
